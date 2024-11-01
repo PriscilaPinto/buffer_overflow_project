@@ -1,5 +1,5 @@
 section .data
-    filename db '/media/sf_exploit-c-project-facens/bad/perdeu.txt', 0
+    filename db './perdeu.txt', 0
 
 section .bss
     buffer resb 1024          ; reserva 1024 bytes para o conteúdo
